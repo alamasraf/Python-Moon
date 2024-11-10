@@ -1,4 +1,4 @@
 git add . <all files>,
 git commit -m "<write your message>" 
-git push origin banch-name
+git push origin <banch-name>
 e.g. git push origin main 
