@@ -53,4 +53,3 @@ plt.title("comparative Mode")
 
 plt.suptitle("Comparative test study")
 plt.show()
-plt.show ()
