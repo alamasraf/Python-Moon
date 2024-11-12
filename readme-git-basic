@@ -2,3 +2,17 @@ git add . <all files>,
 git commit -m "<write your message>" 
 git push origin <banch-name>
 e.g. git push origin main 
+
+
+#say, collaborator bas made changes, then your routine steps should be:
+1. git fetch origin (from your terminal while you're in root folder) or Use a tool like git pull to fetch and merge in one step: git pull origin main.
+2. Merge the changes: git merge origin/main  // Replace 'main' with your main branch name
+3. Resolve Conflicts (if any):
+
+If there are conflicts, Git will prompt you to resolve them manually. You'll need to edit the conflicting files and resolve the merge conflicts.
+Use a merge tool or a text editor to compare the changes and decide which changes to keep.
+Once you've resolved the conflicts, stage the changes: git add . # dot adds all files 
+means, change manually, add or delete 
+
+4. commit the  erged chnages : git commit -m "added my changes"
+5. push the changes: git push origin main
