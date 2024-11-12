@@ -13,3 +13,5 @@ for ele in arr:
 
 farry=arr[flary]
 print(farry) 
+
+print("its a fork")
