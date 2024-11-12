@@ -15,3 +15,5 @@ farry=arr[flary]
 print(farry) 
 
 print("its a fork")
+
+print ("a new fork")
