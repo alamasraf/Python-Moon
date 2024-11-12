@@ -12,6 +12,13 @@ for ele in arr:
 		flary.append(False)
 
 farry=arr[flary]
+
+print(farry) 
+
+print("its a fork")
+
+print ("a new fork")
+
 print(farry)
 
 print("its a test of file updating.")
@@ -19,3 +26,4 @@ print ("new changes")
 
 
 print ("more test")
+
